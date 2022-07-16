@@ -1,0 +1,58 @@
+.container{
+  width:100%;
+  max-width:46rem;
+  margin:0 auto;
+  margin-top:5rem;
+  padding:0 1rem;
+  color:var(--gray-100);
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:1.5rem;
+}
+
+.header div{
+  display:flex;
+  align-items:center;
+  gap:1rem;
+}
+
+.blueText{
+  color:var(--blue);
+  font-size:1.2rem;
+  font-weight:bold;
+  letter-spacing:2px;
+}
+
+.purpleText{
+  color:var(--purple);
+  font-size:1.2rem;
+  font-weight:bold;
+  letter-spacing:2px;
+}
+
+.header span{
+  background-color:var(--gray-400);
+  color:var(--gray-200);
+  padding:0.5rem;
+  border-radius:16px;
+}
+
+.tasks{
+  display:flex;
+  flex-direction:column;
+  gap:1rem;
+}
+
+.emptyBook{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 736px;
+  height: 244px;
+}
